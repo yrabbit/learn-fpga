@@ -41,214 +41,214 @@
    generate
      case(freq)
      16: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=37;
       defparam pll_i.CLKOP_CPHASE=18;
+      defparam pll_i.CLKOP_DIV=37;
       defparam pll_i.CLKFB_DIV=4;
+      defparam pll_i.CLKI_DIV=3;
      end
      20: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=30;
       defparam pll_i.CLKOP_CPHASE=15;
+      defparam pll_i.CLKOP_DIV=30;
       defparam pll_i.CLKFB_DIV=5;
+      defparam pll_i.CLKI_DIV=3;
      end
      24: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=25;
       defparam pll_i.CLKOP_CPHASE=12;
+      defparam pll_i.CLKOP_DIV=25;
       defparam pll_i.CLKFB_DIV=2;
+      defparam pll_i.CLKI_DIV=1;
      end
      25: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=25;
       defparam pll_i.CLKOP_CPHASE=12;
+      defparam pll_i.CLKOP_DIV=25;
       defparam pll_i.CLKFB_DIV=2;
+      defparam pll_i.CLKI_DIV=1;
      end
      30: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=20;
       defparam pll_i.CLKOP_CPHASE=9;
+      defparam pll_i.CLKOP_DIV=20;
       defparam pll_i.CLKFB_DIV=5;
+      defparam pll_i.CLKI_DIV=2;
      end
      35: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=17;
       defparam pll_i.CLKOP_CPHASE=8;
+      defparam pll_i.CLKOP_DIV=17;
       defparam pll_i.CLKFB_DIV=3;
+      defparam pll_i.CLKI_DIV=1;
      end
      40: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=15;
       defparam pll_i.CLKOP_CPHASE=7;
+      defparam pll_i.CLKOP_DIV=15;
       defparam pll_i.CLKFB_DIV=10;
+      defparam pll_i.CLKI_DIV=3;
      end
      45: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=14;
       defparam pll_i.CLKOP_CPHASE=6;
+      defparam pll_i.CLKOP_DIV=14;
       defparam pll_i.CLKFB_DIV=11;
+      defparam pll_i.CLKI_DIV=3;
      end
      48: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=12;
       defparam pll_i.CLKOP_CPHASE=5;
+      defparam pll_i.CLKOP_DIV=12;
       defparam pll_i.CLKFB_DIV=4;
+      defparam pll_i.CLKI_DIV=1;
      end
      50: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=12;
       defparam pll_i.CLKOP_CPHASE=5;
+      defparam pll_i.CLKOP_DIV=12;
       defparam pll_i.CLKFB_DIV=4;
+      defparam pll_i.CLKI_DIV=1;
      end
      55: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=11;
       defparam pll_i.CLKOP_CPHASE=5;
+      defparam pll_i.CLKOP_DIV=11;
       defparam pll_i.CLKFB_DIV=9;
+      defparam pll_i.CLKI_DIV=2;
      end
      60: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=10;
       defparam pll_i.CLKOP_CPHASE=4;
+      defparam pll_i.CLKOP_DIV=10;
       defparam pll_i.CLKFB_DIV=5;
+      defparam pll_i.CLKI_DIV=1;
      end
      65: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKOP_CPHASE=4;
+      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKFB_DIV=11;
+      defparam pll_i.CLKI_DIV=2;
      end
      66: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKOP_CPHASE=4;
+      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKFB_DIV=11;
+      defparam pll_i.CLKI_DIV=2;
      end
      70: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKOP_CPHASE=4;
+      defparam pll_i.CLKOP_DIV=9;
       defparam pll_i.CLKFB_DIV=17;
+      defparam pll_i.CLKI_DIV=3;
      end
      75: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=8;
       defparam pll_i.CLKOP_CPHASE=3;
+      defparam pll_i.CLKOP_DIV=8;
       defparam pll_i.CLKFB_DIV=19;
+      defparam pll_i.CLKI_DIV=3;
      end
      80: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKOP_CPHASE=3;
+      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKFB_DIV=20;
+      defparam pll_i.CLKI_DIV=3;
      end
      85: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKOP_CPHASE=3;
+      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKFB_DIV=7;
+      defparam pll_i.CLKI_DIV=1;
      end
      90: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKOP_CPHASE=3;
+      defparam pll_i.CLKOP_DIV=7;
       defparam pll_i.CLKFB_DIV=15;
+      defparam pll_i.CLKI_DIV=2;
      end
      95: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKFB_DIV=8;
+      defparam pll_i.CLKI_DIV=1;
      end
      100: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKFB_DIV=25;
+      defparam pll_i.CLKI_DIV=3;
      end
      105: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKOP_CPHASE=3;
+      defparam pll_i.CLKOP_DIV=6;
       defparam pll_i.CLKFB_DIV=26;
+      defparam pll_i.CLKI_DIV=3;
      end
      110: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKFB_DIV=28;
+      defparam pll_i.CLKI_DIV=3;
      end
      115: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKFB_DIV=29;
+      defparam pll_i.CLKI_DIV=3;
      end
      120: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKFB_DIV=10;
+      defparam pll_i.CLKI_DIV=1;
      end
      125: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKFB_DIV=31;
+      defparam pll_i.CLKI_DIV=3;
      end
      130: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=5;
       defparam pll_i.CLKFB_DIV=32;
+      defparam pll_i.CLKI_DIV=3;
      end
      135: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKFB_DIV=34;
+      defparam pll_i.CLKI_DIV=3;
      end
      140: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKOP_CPHASE=1;
+      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKFB_DIV=35;
+      defparam pll_i.CLKI_DIV=3;
      end
      150: begin
-      defparam pll_i.CLKI_DIV=2;
-      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKFB_DIV=25;
+      defparam pll_i.CLKI_DIV=2;
      end
      160: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKOP_CPHASE=2;
+      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKFB_DIV=40;
+      defparam pll_i.CLKI_DIV=3;
      end
      170: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKOP_CPHASE=1;
+      defparam pll_i.CLKOP_DIV=4;
       defparam pll_i.CLKFB_DIV=14;
+      defparam pll_i.CLKI_DIV=1;
      end
      180: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKOP_CPHASE=1;
+      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKFB_DIV=15;
+      defparam pll_i.CLKI_DIV=1;
      end
      190: begin
-      defparam pll_i.CLKI_DIV=1;
-      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKOP_CPHASE=1;
+      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKFB_DIV=16;
+      defparam pll_i.CLKI_DIV=1;
      end
      200: begin
-      defparam pll_i.CLKI_DIV=3;
-      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKOP_CPHASE=1;
+      defparam pll_i.CLKOP_DIV=3;
       defparam pll_i.CLKFB_DIV=50;
+      defparam pll_i.CLKI_DIV=3;
      end
      default: UNKNOWN_FREQUENCY unknown_frequency();
      endcase
