@@ -112,7 +112,7 @@ EOF
 endmodule  
 EOF
       ;;
-   "TANGNANO9K")
+   "TANGNANO9K"|"TANGNANO20K")
       cat << EOF
 
  module femtoPLL  #(
@@ -122,8 +122,14 @@ EOF
     output wire clk
  );
    rPLL #(
-	.DEVICE("GW1NR-9C"), 
-	.FCLKIN("27")
+EOF
+	if [ $FPGA_KIND = "TANGNANO9K" ]; then
+		echo '      .DEVICE("GW1NR-9C"),'
+	else
+		echo '      .DEVICE("GW2AR-18C"),'
+	fi
+cat << EOF
+      .FCLKIN("27")
  ) pll (
       .CLKOUT(clk),
       .RESET(1'b0),
