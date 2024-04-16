@@ -14,7 +14,7 @@
 
 //         CORE                      RV32 subset    fmax validated-experimental
 //
-//`define NRV_FEMTORV32_QUARK       // RV32I          fmax = 80-110 MHz
+`define NRV_FEMTORV32_QUARK       // RV32I          fmax = 80-110 MHz
 //`define NRV_FEMTORV32_TACHYON     // RV32I          fmax = 100-135 MHz
 //`define NRV_FEMTORV32_ELECTRON    // RV32IM         fmax = 70-80 MHz
 //`define NRV_FEMTORV32_INTERMISSUM // RV32IM,   IRQ  fmax = 60-80 MHz
